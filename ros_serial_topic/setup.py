@@ -1,7 +1,6 @@
 from setuptools import find_packages, setup
 
-
-package_name = 'ros_topic_py'
+package_name = 'ros_serial_topic'
 
 setup(
     name=package_name,
@@ -15,14 +14,14 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='ros2',
-    maintainer_email='ros2@todo.todo',
+    maintainer_email='jdedu.kr@gmail.com',
     description='TODO: Package description',
-    license='Apache-2.0',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'talker = ros_topic_py.ros_topic_py_pub:main',
-                'listener = ros_topic_py.ros_topic_py_sub:main',
+                'serial_pub = ros_serial_topic.ros_serial_topic_pub:main',
+                'serial_sub = ros_serial_topic.ros_serial_topic_sub:main',
         ],
     },
 )
