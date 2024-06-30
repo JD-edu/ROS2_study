@@ -1,0 +1,39 @@
+[4.322s] Invoking command in '/home/ros2/ros2_ws/src/jdamr_ros2_2': PYTHONPATH=/home/ros2/ros2_ws/src/build/jdamr_ros2_2/prefix_override:/home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jdamr_ros2_2 build --build-base /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build install --record /home/ros2/ros2_ws/src/build/jdamr_ros2_2/install.log --single-version-externally-managed
+[5.082s] running egg_info
+[5.082s] creating ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info
+[5.089s] writing ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/PKG-INFO
+[5.090s] writing dependency_links to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/dependency_links.txt
+[5.090s] writing entry points to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/entry_points.txt
+[5.090s] writing requirements to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/requires.txt
+[5.090s] writing top-level names to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/top_level.txt
+[5.090s] writing manifest file '../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/SOURCES.txt'
+[5.090s] reading manifest file '../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/SOURCES.txt'
+[5.090s] adding license file 'LICENSE'
+[5.092s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.093s]   warnings.warn(
+[5.097s] writing manifest file '../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/SOURCES.txt'
+[5.098s] running build
+[5.098s] running build_py
+[5.098s] creating /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build
+[5.098s] creating /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib
+[5.098s] creating /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2
+[5.098s] copying jdamr_ros2_2/__init__.py -> /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2
+[5.098s] copying jdamr_ros2_2/jdamr_ros2_2.py -> /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2
+[5.098s] running install
+[5.098s] running install_lib
+[5.099s] creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2
+[5.099s] copying /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2/__init__.py -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2
+[5.099s] copying /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2/jdamr_ros2_2.py -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2
+[5.099s] byte-compiling /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2/__init__.py to __init__.cpython-310.pyc
+[5.101s] byte-compiling /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2/jdamr_ros2_2.py to jdamr_ros2_2.cpython-310.pyc
+[5.101s] running install_data
+[5.101s] creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index
+[5.101s] creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index/resource_index
+[5.101s] creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index/resource_index/packages
+[5.102s] copying resource/jdamr_ros2_2 -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index/resource_index/packages
+[5.102s] copying package.xml -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/jdamr_ros2_2
+[5.102s] running install_egg_info
+[5.113s] Copying ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info to /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2-0.0.0-py3.10.egg-info
+[5.113s] running install_scripts
+[5.169s] writing list of installed files to '/home/ros2/ros2_ws/src/build/jdamr_ros2_2/install.log'
+[6.459s] Invoked command in '/home/ros2/ros2_ws/src/jdamr_ros2_2' returned '0': PYTHONPATH=/home/ros2/ros2_ws/src/build/jdamr_ros2_2/prefix_override:/home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jdamr_ros2_2 build --build-base /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build install --record /home/ros2/ros2_ws/src/build/jdamr_ros2_2/install.log --single-version-externally-managed

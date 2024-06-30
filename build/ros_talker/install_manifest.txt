@@ -1,0 +1,16 @@
+/home/ros2/ros2_ws/src/install/ros_talker/lib/ros_talker/talker
+/home/ros2/ros2_ws/src/install/ros_talker/share/ament_index/resource_index/package_run_dependencies/ros_talker
+/home/ros2/ros2_ws/src/install/ros_talker/share/ament_index/resource_index/parent_prefix_path/ros_talker
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/ament_prefix_path.sh
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/ament_prefix_path.dsv
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/path.sh
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/path.dsv
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.bash
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.sh
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.zsh
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.dsv
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/package.dsv
+/home/ros2/ros2_ws/src/install/ros_talker/share/ament_index/resource_index/packages/ros_talker
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/cmake/ros_talkerConfig.cmake
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/cmake/ros_talkerConfig-version.cmake
+/home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/package.xml

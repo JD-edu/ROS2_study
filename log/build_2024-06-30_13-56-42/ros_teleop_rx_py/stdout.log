@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info
+writing ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/PKG-INFO
+writing dependency_links to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/dependency_links.txt
+writing entry points to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/entry_points.txt
+writing requirements to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/requires.txt
+writing top-level names to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/top_level.txt
+writing manifest file '../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/SOURCES.txt'
+reading manifest file '../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build
+creating /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib
+creating /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py
+copying ros_teleop_rx_py/__init__.py -> /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py
+copying ros_teleop_rx_py/teleop_rx_py.py -> /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py
+running install
+running install_lib
+creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py
+copying /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py/__init__.py -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py
+copying /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py/teleop_rx_py.py -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py
+byte-compiling /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py/teleop_rx_py.py to teleop_rx_py.cpython-310.pyc
+running install_data
+creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index
+creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index/resource_index
+creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index/resource_index/packages
+copying resource/ros_teleop_rx_py -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ros_teleop_rx_py
+running install_egg_info
+Copying ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info to /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_rx script to /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/ros_teleop_rx_py
+writing list of installed files to '/home/ros2/ros2_ws/src/build/ros_teleop_rx_py/install.log'

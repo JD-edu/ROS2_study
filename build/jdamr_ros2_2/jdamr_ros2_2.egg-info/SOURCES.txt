@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/PKG-INFO
+../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/SOURCES.txt
+../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/dependency_links.txt
+../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/entry_points.txt
+../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/requires.txt
+../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/top_level.txt
+../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/zip-safe
+jdamr_ros2_2/__init__.py
+jdamr_ros2_2/jdamr_ros2_2.py
+resource/jdamr_ros2_2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

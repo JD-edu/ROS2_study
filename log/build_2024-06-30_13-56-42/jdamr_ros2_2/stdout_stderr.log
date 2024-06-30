@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info
+writing ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/PKG-INFO
+writing dependency_links to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/dependency_links.txt
+writing entry points to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/entry_points.txt
+writing requirements to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/requires.txt
+writing top-level names to ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/top_level.txt
+writing manifest file '../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/SOURCES.txt'
+reading manifest file '../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+writing manifest file '../build/jdamr_ros2_2/jdamr_ros2_2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build
+creating /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib
+creating /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2
+copying jdamr_ros2_2/__init__.py -> /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2
+copying jdamr_ros2_2/jdamr_ros2_2.py -> /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2
+running install
+running install_lib
+creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2
+copying /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2/__init__.py -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2
+copying /home/ros2/ros2_ws/src/build/jdamr_ros2_2/build/lib/jdamr_ros2_2/jdamr_ros2_2.py -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2
+byte-compiling /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2/jdamr_ros2_2.py to jdamr_ros2_2.cpython-310.pyc
+running install_data
+creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index
+creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index/resource_index
+creating /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index/resource_index/packages
+copying resource/jdamr_ros2_2 -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ros2_ws/src/install/jdamr_ros2_2/share/jdamr_ros2_2
+running install_egg_info
+Copying ../build/jdamr_ros2_2/jdamr_ros2_2.egg-info to /home/ros2/ros2_ws/src/install/jdamr_ros2_2/lib/python3.10/site-packages/jdamr_ros2_2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ros2/ros2_ws/src/build/jdamr_ros2_2/install.log'

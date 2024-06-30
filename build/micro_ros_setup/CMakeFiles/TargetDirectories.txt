@@ -1,0 +1,9 @@
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/uninstall.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/micro_ros_setup_uninstall.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/test.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/edit_cache.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/rebuild_cache.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/list_install_components.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/install.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/install/local.dir
+/home/ros2/ros2_ws/src/build/micro_ros_setup/CMakeFiles/install/strip.dir

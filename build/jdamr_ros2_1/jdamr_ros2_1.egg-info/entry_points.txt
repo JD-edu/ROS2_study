@@ -1,0 +1,3 @@
+[console_scripts]
+jdamr_ros2_1 = jdamr_ros2_1.jdamr_ros2_1:main
+

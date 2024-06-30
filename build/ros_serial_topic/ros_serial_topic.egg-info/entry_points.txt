@@ -1,0 +1,4 @@
+[console_scripts]
+serial_pub = ros_serial_topic.ros_serial_topic_pub:main
+serial_sub = ros_serial_topic.ros_serial_topic_sub:main
+

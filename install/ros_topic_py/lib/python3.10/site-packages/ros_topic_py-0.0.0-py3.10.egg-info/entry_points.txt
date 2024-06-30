@@ -1,0 +1,4 @@
+[console_scripts]
+listener = ros_topic_py.ros_topic_py_sub:main
+talker = ros_topic_py.ros_topic_py_pub:main
+

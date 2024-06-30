@@ -1,0 +1,60 @@
+[2.682s] Invoking command in '/home/ros2/ros2_ws/src/build/ros_talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_ws/src/ros_talker -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/src/install/ros_talker
+[2.961s] -- The C compiler identification is GNU 11.4.0
+[3.246s] -- The CXX compiler identification is GNU 11.4.0
+[3.262s] -- Detecting C compiler ABI info
+[3.465s] -- Detecting C compiler ABI info - done
+[3.491s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.492s] -- Detecting C compile features
+[3.492s] -- Detecting C compile features - done
+[3.512s] -- Detecting CXX compiler ABI info
+[3.794s] -- Detecting CXX compiler ABI info - done
+[3.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.821s] -- Detecting CXX compile features
+[3.821s] -- Detecting CXX compile features - done
+[3.821s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.672s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.840s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.848s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.873s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.116s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.127s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.388s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.456s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.575s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.609s] -- Looking for pthread.h
+[5.786s] -- Looking for pthread.h - found
+[5.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.966s] -- Found Threads: TRUE  
+[6.696s] -- Configuring done
+[6.714s] -- Generating done
+[6.735s] -- Build files have been written to: /home/ros2/ros2_ws/src/build/ros_talker
+[7.869s] Invoked command in '/home/ros2/ros2_ws/src/build/ros_talker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_ws/src/ros_talker -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/src/install/ros_talker
+[7.873s] Invoking command in '/home/ros2/ros2_ws/src/build/ros_talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/src/build/ros_talker -- -j10 -l10
+[8.314s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[18.267s] [100%] [32m[1mLinking CXX executable talker[0m
+[18.788s] [100%] Built target talker
+[18.801s] Invoked command in '/home/ros2/ros2_ws/src/build/ros_talker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/src/build/ros_talker -- -j10 -l10
+[18.860s] Invoking command in '/home/ros2/ros2_ws/src/build/ros_talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/src/build/ros_talker
+[18.882s] -- Install configuration: ""
+[18.884s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/lib/ros_talker/talker
+[18.892s] -- Set runtime path of "/home/ros2/ros2_ws/src/install/ros_talker/lib/ros_talker/talker" to ""
+[18.896s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ament_index/resource_index/package_run_dependencies/ros_talker
+[18.898s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ament_index/resource_index/parent_prefix_path/ros_talker
+[18.899s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/ament_prefix_path.sh
+[18.900s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/ament_prefix_path.dsv
+[18.901s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/path.sh
+[18.902s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/environment/path.dsv
+[18.903s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.bash
+[18.904s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.sh
+[18.905s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.zsh
+[18.907s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/local_setup.dsv
+[18.908s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/package.dsv
+[18.908s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ament_index/resource_index/packages/ros_talker
+[18.909s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/cmake/ros_talkerConfig.cmake
+[18.909s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/cmake/ros_talkerConfig-version.cmake
+[18.910s] -- Installing: /home/ros2/ros2_ws/src/install/ros_talker/share/ros_talker/package.xml
+[18.910s] Invoked command in '/home/ros2/ros2_ws/src/build/ros_talker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/src/build/ros_talker

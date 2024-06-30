@@ -1,0 +1,3 @@
+[console_scripts]
+js_5_pub_test = jdcobot_100_description.js_5_pub_test:main
+

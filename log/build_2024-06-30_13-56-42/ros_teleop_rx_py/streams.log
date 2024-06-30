@@ -1,0 +1,40 @@
+[3.823s] Invoking command in '/home/ros2/ros2_ws/src/ros_teleop_rx_py': PYTHONPATH=/home/ros2/ros2_ws/src/build/ros_teleop_rx_py/prefix_override:/home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_teleop_rx_py build --build-base /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build install --record /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/install.log --single-version-externally-managed
+[4.730s] running egg_info
+[4.759s] creating ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info
+[4.759s] writing ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/PKG-INFO
+[4.759s] writing dependency_links to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/dependency_links.txt
+[4.762s] writing entry points to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/entry_points.txt
+[4.762s] writing requirements to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/requires.txt
+[4.762s] writing top-level names to ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/top_level.txt
+[4.762s] writing manifest file '../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/SOURCES.txt'
+[4.763s] reading manifest file '../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/SOURCES.txt'
+[4.766s] adding license file 'LICENSE'
+[4.766s] writing manifest file '../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info/SOURCES.txt'
+[4.829s] running build
+[4.830s] running build_py
+[4.830s] creating /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build
+[4.830s] creating /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib
+[4.830s] creating /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py
+[4.830s] copying ros_teleop_rx_py/__init__.py -> /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py
+[4.830s] copying ros_teleop_rx_py/teleop_rx_py.py -> /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py
+[4.830s] running install
+[4.834s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.834s]   warnings.warn(
+[4.841s] running install_lib
+[4.869s] creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py
+[4.870s] copying /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py/__init__.py -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py
+[4.870s] copying /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build/lib/ros_teleop_rx_py/teleop_rx_py.py -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py
+[4.870s] byte-compiling /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py/__init__.py to __init__.cpython-310.pyc
+[4.870s] byte-compiling /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py/teleop_rx_py.py to teleop_rx_py.cpython-310.pyc
+[4.870s] running install_data
+[4.871s] creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index
+[4.871s] creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index/resource_index
+[4.871s] creating /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index/resource_index/packages
+[4.871s] copying resource/ros_teleop_rx_py -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ament_index/resource_index/packages
+[4.872s] copying package.xml -> /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/share/ros_teleop_rx_py
+[4.872s] running install_egg_info
+[4.894s] Copying ../build/ros_teleop_rx_py/ros_teleop_rx_py.egg-info to /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages/ros_teleop_rx_py-0.0.0-py3.10.egg-info
+[4.896s] running install_scripts
+[5.038s] Installing teleop_rx script to /home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/ros_teleop_rx_py
+[5.043s] writing list of installed files to '/home/ros2/ros2_ws/src/build/ros_teleop_rx_py/install.log'
+[5.166s] Invoked command in '/home/ros2/ros2_ws/src/ros_teleop_rx_py' returned '0': PYTHONPATH=/home/ros2/ros2_ws/src/build/ros_teleop_rx_py/prefix_override:/home/ros2/ros2_ws/src/install/ros_teleop_rx_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_teleop_rx_py build --build-base /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/build install --record /home/ros2/ros2_ws/src/build/ros_teleop_rx_py/install.log --single-version-externally-managed

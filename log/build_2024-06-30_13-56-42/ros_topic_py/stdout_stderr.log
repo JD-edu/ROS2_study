@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/ros_topic_py/ros_topic_py.egg-info
+writing ../build/ros_topic_py/ros_topic_py.egg-info/PKG-INFO
+writing dependency_links to ../build/ros_topic_py/ros_topic_py.egg-info/dependency_links.txt
+writing entry points to ../build/ros_topic_py/ros_topic_py.egg-info/entry_points.txt
+writing requirements to ../build/ros_topic_py/ros_topic_py.egg-info/requires.txt
+writing top-level names to ../build/ros_topic_py/ros_topic_py.egg-info/top_level.txt
+writing manifest file '../build/ros_topic_py/ros_topic_py.egg-info/SOURCES.txt'
+reading manifest file '../build/ros_topic_py/ros_topic_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/ros_topic_py/ros_topic_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/ros2_ws/src/build/ros_topic_py/build
+creating /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib
+creating /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+copying ros_topic_py/__init__.py -> /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+copying ros_topic_py/ros_topic_py_pub.py -> /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+copying ros_topic_py/ros_topic_py_sub.py -> /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+running install
+running install_lib
+creating /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+copying /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py/__init__.py -> /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+copying /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py/ros_topic_py_pub.py -> /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+copying /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py/ros_topic_py_sub.py -> /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+byte-compiling /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py/ros_topic_py_pub.py to ros_topic_py_pub.cpython-310.pyc
+byte-compiling /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py/ros_topic_py_sub.py to ros_topic_py_sub.cpython-310.pyc
+running install_data
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+creating /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index
+creating /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index/resource_index
+creating /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index/resource_index/packages
+copying resource/ros_topic_py -> /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ros2_ws/src/install/ros_topic_py/share/ros_topic_py
+running install_egg_info
+Copying ../build/ros_topic_py/ros_topic_py.egg-info to /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/ros2/ros2_ws/src/install/ros_topic_py/lib/ros_topic_py
+Installing talker script to /home/ros2/ros2_ws/src/install/ros_topic_py/lib/ros_topic_py
+writing list of installed files to '/home/ros2/ros2_ws/src/build/ros_topic_py/install.log'

@@ -1,0 +1,57 @@
+[4.236s] Invoking command in '/home/ros2/ros2_ws/src/jdcobot_100_description': PYTHONPATH=/home/ros2/ros2_ws/src/build/jdcobot_100_description/prefix_override:/home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jdcobot_100_description build --build-base /home/ros2/ros2_ws/src/build/jdcobot_100_description/build install --record /home/ros2/ros2_ws/src/build/jdcobot_100_description/install.log --single-version-externally-managed
+[4.915s] running egg_info
+[4.917s] creating ../build/jdcobot_100_description/jdcobot_100_description.egg-info
+[4.917s] writing ../build/jdcobot_100_description/jdcobot_100_description.egg-info/PKG-INFO
+[4.923s] writing dependency_links to ../build/jdcobot_100_description/jdcobot_100_description.egg-info/dependency_links.txt
+[4.923s] writing entry points to ../build/jdcobot_100_description/jdcobot_100_description.egg-info/entry_points.txt
+[4.923s] writing requirements to ../build/jdcobot_100_description/jdcobot_100_description.egg-info/requires.txt
+[4.923s] writing top-level names to ../build/jdcobot_100_description/jdcobot_100_description.egg-info/top_level.txt
+[4.924s] writing manifest file '../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+[4.924s] reading manifest file '../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+[4.927s] writing manifest file '../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+[4.927s] running build
+[4.927s] running build_py
+[4.927s] creating /home/ros2/ros2_ws/src/build/jdcobot_100_description/build
+[4.927s] creating /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib
+[4.927s] creating /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib/jdcobot_100_description
+[4.927s] copying jdcobot_100_description/test_ikpy.py -> /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib/jdcobot_100_description
+[4.928s] copying jdcobot_100_description/__init__.py -> /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib/jdcobot_100_description
+[4.928s] copying jdcobot_100_description/js_5_pub_test.py -> /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib/jdcobot_100_description
+[4.928s] running install
+[4.928s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.928s]   warnings.warn(
+[4.928s] running install_lib
+[4.928s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+[4.928s] copying /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib/jdcobot_100_description/test_ikpy.py -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+[4.928s] copying /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib/jdcobot_100_description/__init__.py -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+[4.929s] copying /home/ros2/ros2_ws/src/build/jdcobot_100_description/build/lib/jdcobot_100_description/js_5_pub_test.py -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+[4.930s] byte-compiling /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description/test_ikpy.py to test_ikpy.cpython-310.pyc
+[4.932s] byte-compiling /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description/__init__.py to __init__.cpython-310.pyc
+[4.935s] byte-compiling /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description/js_5_pub_test.py to js_5_pub_test.cpython-310.pyc
+[4.935s] running install_data
+[4.950s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/ament_index
+[4.951s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/ament_index/resource_index
+[4.951s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/ament_index/resource_index/packages
+[4.951s] copying resource/jdcobot_100_description -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/ament_index/resource_index/packages
+[4.951s] copying package.xml -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description
+[4.951s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/launch
+[4.951s] copying launch/display_launch.py -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/launch
+[4.951s] copying launch/gazebo_launch.py -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/launch
+[4.951s] copying launch/test_1_launch.py -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/launch
+[4.951s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/urdf
+[4.951s] copying urdf/jdcobot_100_description.urdf -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/urdf
+[4.952s] copying urdf/jdcobot_100_description.csv -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/urdf
+[4.952s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/rviz
+[4.952s] copying rviz/rviz_set.rviz -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/rviz
+[4.952s] creating /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+[4.952s] copying meshes/link_2.STL -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+[4.952s] copying meshes/link_4.STL -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+[4.952s] copying meshes/base_link.STL -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+[4.952s] copying meshes/link_1.STL -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+[4.952s] copying meshes/link_3.STL -> /home/ros2/ros2_ws/src/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+[4.952s] running install_egg_info
+[4.952s] Copying ../build/jdcobot_100_description/jdcobot_100_description.egg-info to /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description-1.0.0-py3.10.egg-info
+[4.952s] running install_scripts
+[4.985s] Installing js_5_pub_test script to /home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/jdcobot_100_description
+[4.986s] writing list of installed files to '/home/ros2/ros2_ws/src/build/jdcobot_100_description/install.log'
+[5.838s] Invoked command in '/home/ros2/ros2_ws/src/jdcobot_100_description' returned '0': PYTHONPATH=/home/ros2/ros2_ws/src/build/jdcobot_100_description/prefix_override:/home/ros2/ros2_ws/src/install/jdcobot_100_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/jdcobot_100_description build --build-base /home/ros2/ros2_ws/src/build/jdcobot_100_description/build install --record /home/ros2/ros2_ws/src/build/jdcobot_100_description/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_rx = ros_teleop_rx_py.teleop_rx_py:main
+

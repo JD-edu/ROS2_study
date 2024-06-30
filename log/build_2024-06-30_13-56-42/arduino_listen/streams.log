@@ -1,0 +1,60 @@
+[0.735s] Invoking command in '/home/ros2/ros2_ws/src/build/arduino_listen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_ws/src/arduino_listen -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/src/install/arduino_listen
+[3.318s] -- The C compiler identification is GNU 11.4.0
+[3.318s] -- The CXX compiler identification is GNU 11.4.0
+[3.318s] -- Detecting C compiler ABI info
+[3.318s] -- Detecting C compiler ABI info - done
+[3.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.319s] -- Detecting C compile features
+[3.319s] -- Detecting C compile features - done
+[3.319s] -- Detecting CXX compiler ABI info
+[3.319s] -- Detecting CXX compiler ABI info - done
+[3.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.319s] -- Detecting CXX compile features
+[3.319s] -- Detecting CXX compile features - done
+[3.319s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.319s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.319s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.319s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.319s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.319s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.319s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.320s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.320s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.320s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.320s] -- Looking for pthread.h
+[3.320s] -- Looking for pthread.h - found
+[3.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.320s] -- Found Threads: TRUE  
+[4.107s] -- Configuring done
+[4.171s] -- Generating done
+[4.171s] -- Build files have been written to: /home/ros2/ros2_ws/src/build/arduino_listen
+[4.427s] Invoked command in '/home/ros2/ros2_ws/src/build/arduino_listen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake /home/ros2/ros2_ws/src/arduino_listen -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/src/install/arduino_listen
+[4.439s] Invoking command in '/home/ros2/ros2_ws/src/build/arduino_listen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/src/build/arduino_listen -- -j10 -l10
+[4.651s] [ 50%] [32mBuilding CXX object CMakeFiles/arduino_listen.dir/src/arduino_listen.cpp.o[0m
+[30.595s] [100%] [32m[1mLinking CXX executable arduino_listen[0m
+[31.890s] [100%] Built target arduino_listen
+[31.921s] Invoked command in '/home/ros2/ros2_ws/src/build/arduino_listen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/src/build/arduino_listen -- -j10 -l10
+[32.000s] Invoking command in '/home/ros2/ros2_ws/src/build/arduino_listen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/src/build/arduino_listen
+[32.024s] -- Install configuration: ""
+[32.024s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/lib/arduino_listen/arduino_listen
+[32.031s] -- Set runtime path of "/home/ros2/ros2_ws/src/install/arduino_listen/lib/arduino_listen/arduino_listen" to ""
+[32.031s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/ament_index/resource_index/package_run_dependencies/arduino_listen
+[32.031s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/ament_index/resource_index/parent_prefix_path/arduino_listen
+[32.031s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/environment/ament_prefix_path.sh
+[32.032s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/environment/ament_prefix_path.dsv
+[32.032s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/environment/path.sh
+[32.032s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/environment/path.dsv
+[32.032s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/local_setup.bash
+[32.032s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/local_setup.sh
+[32.032s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/local_setup.zsh
+[32.032s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/local_setup.dsv
+[32.033s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/package.dsv
+[32.033s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/ament_index/resource_index/packages/arduino_listen
+[32.033s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/cmake/arduino_listenConfig.cmake
+[32.033s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/cmake/arduino_listenConfig-version.cmake
+[32.033s] -- Installing: /home/ros2/ros2_ws/src/install/arduino_listen/share/arduino_listen/package.xml
+[32.041s] Invoked command in '/home/ros2/ros2_ws/src/build/arduino_listen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/ros_topic_py:/home/ros2/ros2_ws/install/ros_teleop_rx_py:/home/ros2/ros2_ws/install/ros_serial_topic:/home/ros2/ros2_ws/install/ros_cv:/home/ros2/ros2_ws/install/jdcobot_100_description:/home/ros2/ros2_ws/install/jdamr_ros2_2:/home/ros2/ros2_ws/install/jdamr_ros2_1:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/src/build/arduino_listen

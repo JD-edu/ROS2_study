@@ -1,0 +1,44 @@
+[3.424s] Invoking command in '/home/ros2/ros2_ws/src/ros_topic_py': PYTHONPATH=/home/ros2/ros2_ws/src/build/ros_topic_py/prefix_override:/home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_topic_py build --build-base /home/ros2/ros2_ws/src/build/ros_topic_py/build install --record /home/ros2/ros2_ws/src/build/ros_topic_py/install.log --single-version-externally-managed
+[3.956s] running egg_info
+[3.957s] creating ../build/ros_topic_py/ros_topic_py.egg-info
+[3.958s] writing ../build/ros_topic_py/ros_topic_py.egg-info/PKG-INFO
+[3.958s] writing dependency_links to ../build/ros_topic_py/ros_topic_py.egg-info/dependency_links.txt
+[3.958s] writing entry points to ../build/ros_topic_py/ros_topic_py.egg-info/entry_points.txt
+[3.959s] writing requirements to ../build/ros_topic_py/ros_topic_py.egg-info/requires.txt
+[3.959s] writing top-level names to ../build/ros_topic_py/ros_topic_py.egg-info/top_level.txt
+[3.959s] writing manifest file '../build/ros_topic_py/ros_topic_py.egg-info/SOURCES.txt'
+[3.962s] reading manifest file '../build/ros_topic_py/ros_topic_py.egg-info/SOURCES.txt'
+[3.962s] adding license file 'LICENSE'
+[3.963s] writing manifest file '../build/ros_topic_py/ros_topic_py.egg-info/SOURCES.txt'
+[3.964s] running build
+[3.964s] running build_py
+[3.964s] creating /home/ros2/ros2_ws/src/build/ros_topic_py/build
+[3.964s] creating /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib
+[3.965s] creating /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+[3.965s] copying ros_topic_py/__init__.py -> /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+[3.965s] copying ros_topic_py/ros_topic_py_pub.py -> /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+[3.966s] copying ros_topic_py/ros_topic_py_sub.py -> /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py
+[3.966s] running install
+[3.966s] running install_lib
+[3.968s] creating /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+[3.968s] copying /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py/__init__.py -> /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+[3.968s] copying /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py/ros_topic_py_pub.py -> /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+[3.969s] copying /home/ros2/ros2_ws/src/build/ros_topic_py/build/lib/ros_topic_py/ros_topic_py_sub.py -> /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py
+[3.971s] byte-compiling /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py/__init__.py to __init__.cpython-310.pyc
+[3.972s] byte-compiling /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py/ros_topic_py_pub.py to ros_topic_py_pub.cpython-310.pyc
+[3.973s] byte-compiling /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py/ros_topic_py_sub.py to ros_topic_py_sub.cpython-310.pyc
+[3.973s] running install_data
+[3.976s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.976s]   warnings.warn(
+[3.981s] creating /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index
+[3.981s] creating /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index/resource_index
+[3.981s] creating /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index/resource_index/packages
+[3.981s] copying resource/ros_topic_py -> /home/ros2/ros2_ws/src/install/ros_topic_py/share/ament_index/resource_index/packages
+[3.982s] copying package.xml -> /home/ros2/ros2_ws/src/install/ros_topic_py/share/ros_topic_py
+[3.982s] running install_egg_info
+[3.982s] Copying ../build/ros_topic_py/ros_topic_py.egg-info to /home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages/ros_topic_py-0.0.0-py3.10.egg-info
+[3.982s] running install_scripts
+[4.026s] Installing listener script to /home/ros2/ros2_ws/src/install/ros_topic_py/lib/ros_topic_py
+[4.026s] Installing talker script to /home/ros2/ros2_ws/src/install/ros_topic_py/lib/ros_topic_py
+[4.027s] writing list of installed files to '/home/ros2/ros2_ws/src/build/ros_topic_py/install.log'
+[4.106s] Invoked command in '/home/ros2/ros2_ws/src/ros_topic_py' returned '0': PYTHONPATH=/home/ros2/ros2_ws/src/build/ros_topic_py/prefix_override:/home/ros2/ros2_ws/src/install/ros_topic_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_topic_py build --build-base /home/ros2/ros2_ws/src/build/ros_topic_py/build install --record /home/ros2/ros2_ws/src/build/ros_topic_py/install.log --single-version-externally-managed
