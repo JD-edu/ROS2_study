@@ -14,6 +14,11 @@ def generate_launch_description():
         urdf_file_name
     )
 
+        # RViz 설정 파일 경로
+    rviz_config_file = os.path.join(
+        get_package_share_directory('ros_dd'), 'rviz', 'ros_dd.rviz'
+    )
+
     # launch description 생성
     return LaunchDescription([
         # 로봇 상태 퍼블리셔
@@ -39,6 +44,7 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             output='screen',
+            arguments=['-d', rviz_config_file]
         ),
     ])
 
