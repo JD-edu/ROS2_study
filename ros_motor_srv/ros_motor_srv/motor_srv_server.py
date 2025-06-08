@@ -11,13 +11,14 @@ class MinimalService(Node):
         self.srv = self.create_service(SrvArduino, 'motor_con', self.motor_callback)
 
     def motor_callback(self, request, response):
-        #response.answer = request.dir + request.speed
         if request.dir == 1:
-            # arduino LED on 
-            self.ser.write('a'.encode())
+            # arduino motor run CW
+            command = 'a'+str(request.speed)+'b'
+            self.ser.write(command.encode())
         elif request.dir == 2:
-            # arduino LED off 
-            self.ser.write('b'.encode())
+            # arduino motor run CCW
+            command = 'c'+str(request.speed)+'d'
+            self.ser.write(command.encode())
         response.answer = 45
         self.get_logger().info('Incoming request\ndirection: %d speed: %d' % (request.dir, request.speed))
 
@@ -26,13 +27,9 @@ class MinimalService(Node):
 
 def main():
     rclpy.init()
-
     minimal_service = MinimalService()
-
     rclpy.spin(minimal_service)
-
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

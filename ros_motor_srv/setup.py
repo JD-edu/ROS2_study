@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ros_ardu'
+package_name = 'ros_motor_srv'
 
 setup(
     name=package_name,
@@ -13,15 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='slam',
-    maintainer_email='slam@todo.todo',
+    maintainer='jdedu',
+    maintainer_email='jdedu@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ardu_ser = ros_ardu.ardu_ser:main',
-            'ardu_cli = ros_ardu.ardu_cli:main'
+            'motor_srv_client = ros_motor_srv.motor_srv_client:main',
+            'motor_srv_server = ros_motor_srv.motor_srv_server:main',
         ],
     },
 )

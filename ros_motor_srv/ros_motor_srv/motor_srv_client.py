@@ -1,12 +1,10 @@
 import sys
-
 from cv_msg.srv import SrvArduino
 import rclpy
 from rclpy.node import Node
 
 
 class MinimalClientAsync(Node):
-
     def __init__(self):
         super().__init__('minimal_client_async')
         self.cli = self.create_client(SrvArduino, 'motor_con')
@@ -28,7 +26,7 @@ def main():
     rclpy.spin_until_future_complete(minimal_client, future)
     response = future.result()
     minimal_client.get_logger().info(
-        'Result of add_two_ints: for %d + %d = %d' %
+        'Answer of motor control is  direction: %d speed: %d return value: %d' %
         (int(sys.argv[1]), int(sys.argv[2]), response.answer))
 
     minimal_client.destroy_node()
