@@ -1,5 +1,0 @@
-int64 a
-int64 b
-Point p
----
-int64 sum

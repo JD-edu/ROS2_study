@@ -27,11 +27,18 @@ void handleCommand(String cmd) {
   if (cmd.startsWith("a") && cmd.endsWith("b")) {
     // CW
     speed = cmd.substring(1, cmd.length() - 1).toInt();
+    Serial.println("cw");
     runMotor(true, speed);
   } else if (cmd.startsWith("c") && cmd.endsWith("d")) {
     // CCW
     speed = cmd.substring(1, cmd.length() - 1).toInt();
     runMotor(false, speed);
+    Serial.println("ccw");
+  } else if (cmd.startsWith("e") && cmd.endsWith("f")) {
+    // CCW
+    speed = cmd.substring(1, cmd.length() - 1).toInt();
+    Serial.println("stop");
+    stopMotor();
   }
 }
 
@@ -46,4 +53,10 @@ void runMotor(bool cw, int speed) {
     digitalWrite(motorPin1, LOW);
     digitalWrite(motorPin2, HIGH);
   }
+}
+
+void stopMotor(){
+  digitalWrite(13, LOW);
+  digitalWrite(motorPin1, LOW);
+  digitalWrite(motorPin2, LOW);
 }

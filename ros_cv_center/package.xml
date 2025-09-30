@@ -4,8 +4,8 @@
   <name>ros_cv_center</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="jdedu.kr@gmail.com">ros2</maintainer>
-  <license>MIT</license>
+  <maintainer email="jd@todo.todo">jd</maintainer>
+  <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
   <depend>image_transport</depend>

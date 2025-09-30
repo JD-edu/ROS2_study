@@ -13,11 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ros2',
-    maintainer_email='jdedu.kr@gmail.com',
+    maintainer='jd',
+    maintainer_email='jd@todo.todo',
     description='TODO: Package description',
-    license='Apache-2.0',
-    tests_require=['pytest'],
+    license='TODO: License declaration',
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
     entry_points={
         'console_scripts': [
             'cam_center_pub = ros_cv_center.cam_center_pub:main',

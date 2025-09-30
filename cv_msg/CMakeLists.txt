@@ -11,12 +11,11 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MsgCenter.msg"
-  "srv/SrvGood.srv"
+  "srv/SrvAddint.srv"
   "srv/SrvArduino.srv"
 )
 

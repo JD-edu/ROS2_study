@@ -7,7 +7,7 @@ class MinimalService(Node):
 
     def __init__(self):
         super().__init__('minimal_service')
-        self.ser = serial.Serial('/dev/ttyUSB0', 115200)
+        self.ser = serial.Serial('/dev/ttyACM0', 115200)
         self.srv = self.create_service(SrvArduino, 'motor_con', self.motor_callback)
 
     def motor_callback(self, request, response):
@@ -18,6 +18,10 @@ class MinimalService(Node):
         elif request.dir == 2:
             # arduino motor run CCW
             command = 'c'+str(request.speed)+'d'
+            self.ser.write(command.encode())
+        elif request.dir == 0:
+            # arduino motor run CCW
+            command = 'e'+str(request.speed)+'f'
             self.ser.write(command.encode())
         response.answer = 45
         self.get_logger().info('Incoming request\ndirection: %d speed: %d' % (request.dir, request.speed))

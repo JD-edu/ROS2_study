@@ -13,11 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='slam',
-    maintainer_email='slam@todo.todo',
+    maintainer='jd',
+    maintainer_email='jd@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
     entry_points={
         'console_scripts': [
             'cam_pub = ros_cv.cam_pub:main',
