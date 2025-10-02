@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(ros_serial_c)
+project(ros_teleop_rx_c)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -8,6 +8,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED) 
+
 
 # Find libserial
 find_package(PkgConfig REQUIRED)
@@ -17,37 +19,25 @@ pkg_check_modules(LIBSERIAL REQUIRED libserial)
 include_directories(${LIBSERIAL_INCLUDE_DIRS})
 
 # Create executable for serial reader node
-add_executable(serial_pub 
-  src/serial_pub.cpp
-)
-
-add_executable(serial_sub 
-  src/serial_sub.cpp
+add_executable(led_control 
+  src/led_control.cpp
 )
 
 # Link dependencies
-ament_target_dependencies(serial_pub
+ament_target_dependencies(led_control
   rclcpp
   std_msgs
-)
-
-# Link dependencies
-ament_target_dependencies(serial_sub
-  rclcpp
-  std_msgs
+  geometry_msgs
 )
 
 # Link libserial
-target_link_libraries(serial_pub ${LIBSERIAL_LIBRARIES})
-target_compile_options(serial_pub PRIVATE ${LIBSERIAL_CFLAGS_OTHER})
+target_link_libraries(led_control ${LIBSERIAL_LIBRARIES})
+target_compile_options(led_control PRIVATE ${LIBSERIAL_CFLAGS_OTHER})
 
-target_link_libraries(serial_sub ${LIBSERIAL_LIBRARIES})
-target_compile_options(serial_sub PRIVATE ${LIBSERIAL_CFLAGS_OTHER})
 
 # Install targets
 install(TARGETS
-  serial_pub
-  serial_sub
+  led_control
   DESTINATION lib/${PROJECT_NAME}
 )
 
