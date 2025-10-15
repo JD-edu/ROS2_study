@@ -1,0 +1,70 @@
+# nav2_params.yaml
+amcl:
+  ros__parameters:
+    use_sim_time: True
+    min_particles: 500
+    max_particles: 2000
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+    odom_frame_id: odom
+    base_frame_id: base_footprint # URDF의 로봇 기준 프레임
+    global_frame_id: map
+    set_initial_pose: True
+    # 센서 입력: Lidar (scan 토픽)
+    laser_model_type: likelihood_field
+    scan_topic: scan # Lidar 토픽 이름
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      update_frequency: 5.0
+      publish_frequency: 2.0
+      global_frame: odom
+      robot_base_frame: base_footprint
+      use_sim_time: True
+      plugins: ["obstacle_layer", "inflation_layer"]
+      # Odometry를 글로벌 프레임으로 사용
+      resolution: 0.05
+      rolling_window: True
+      width: 3.0
+      height: 3.0
+      # ... (장애물/팽창 레이어 세부 설정은 생략) ...
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      global_frame: map
+      robot_base_frame: base_footprint
+      use_sim_time: True
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+      resolution: 0.05
+      track_unknown_space: True
+      # ... (정적/장애물/팽창 레이어 세부 설정은 생략) ...
+
+controller_server:
+  ros__parameters:
+    use_sim_time: True
+    controller_frequency: 20.0
+    min_x_velocity_threshold: 0.001
+    min_y_velocity_threshold: 0.001
+    min_yaw_velocity_threshold: 0.001
+    # DWB(Differential Wheel Base) 플러그인 사용
+    default_plugin: "dwb_controller::DWBController"
+    cmd_vel_topic: cmd_vel # 로봇 제어 토픽 (URDF와 일치)
+    # ... (DWB 세부 설정은 생략) ...
+
+planner_server:
+  ros__parameters:
+    use_sim_time: True
+    default_ids: ["GridBased"]
+    default_types: ["nav2_navfn_planner::NavfnPlanner"]
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: True
+    global_frame: map
