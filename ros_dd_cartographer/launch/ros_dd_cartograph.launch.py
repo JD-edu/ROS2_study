@@ -34,7 +34,7 @@ def generate_launch_description():
     publish_period_sec = LaunchConfiguration('publish_period_sec', default='1.0')
 
     # Rviz 설정 파일 경로 (dd_cartographer/rviz/dd_cartographer.rviz 경로를 가정)
-    rviz_config_dir = os.path.join(pkg_share_dir, 'rviz', 'dd_cartographer.rviz')
+    rviz_config_dir = os.path.join(pkg_share_dir, 'rviz', 'ros_dd_cartographer.rviz')
     
     
     # =================================================================
