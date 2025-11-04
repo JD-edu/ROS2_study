@@ -26,7 +26,7 @@
 | **ros_dd**              | URDF/Launch   | 4바퀴 로봇 URDF RViz 시각화 패키지       | 완료   |
 | **ros_dd_cartographer** | Launch/Config | ros_dd_gazebo용 Cartographer SLAM 패키지 | 완료   |
 | **ros_dd_gazebo**       | Launch/URDF   | ros_dd 로봇 Gazebo 시뮬레이션 패키지     | 완료   |
-| **ros_dd_navigation**   | Launch/Config | ros_dd_gazebo 자율주행 네비게이션 패키지 | 게빌중   |
+| **ros_dd_navigation**   | Launch/Config | ros_dd_gazebo 자율주행 네비게이션 패키지 | 개발중   |
 | **ros_dd_teleop**       | Python        | ros_dd_gazebo AWSD 키 조종 패키지        | 완료   |
 | **ros_motor_srv**       | Python        | 아두이노 모터 서비스 제어 패키지         | 완료   |
 | **ros_motor_srv_c**     | C++           | ros_motor_srv의 C++ 구현 버전            | 완료   |
