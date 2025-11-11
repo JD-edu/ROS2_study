@@ -2,7 +2,7 @@
 
 ## 개요 (Overview)
 
-본 저장소는 ROS 2 Humble 환경에서의 학습을 위한 교육용 패키지 모음입니다. Ubuntu 22.04 LTS 환경에서 ROS 2의 기본 개념부터 고급 기능까지 단계별로 학습할 수 있도록 구성되어 있습니다. 토픽과 서비스 통신, 영상 처리, 로봇 제어, 시뮬레이션 및 SLAM 등 ROS 2의 핵심 기능들을 실습을 통해 익힐 수 있습니다.
+본 저장소는 ROS2 Humble 환경에서의 학습을 위한 교육용 패키지 모음입니다. Ubuntu 22.04 LTS 환경에서 ROS2의 기본 개념부터 고급 기능까지 단계별로 학습할 수 있도록 구성되어 있습니다. 토픽과 서비스 통신, 영상 처리, 로봇 제어, 시뮬레이션 및 SLAM 등 ROS2의 핵심 기능들을 실습을 통해 익힐 수 있습니다.
 
 ## 시스템 요구사항 (System Requirements)
 
@@ -23,7 +23,9 @@
 | **ros_cv_c**            | C++           | ros_cv의 C++ 구현 버전                   | 완료   |
 | **ros_cv_center**       | Python        | 적색 영역 중심점 검출 및 전송 패키지     | 완료   |
 | **ros_cv_center_c**     | C++           | ros_cv_center의 C++ 구현 버전            | 완료   |
-| **ros_dd**              | URDF/Launch   | 4바퀴 로봇 URDF RViz 시각화 패키지       | 완료   |
+| **ros_dd**              | URDF/Launch   | 4바퀴 로봇 URDF RViz 시각화 패키지        | 완료   |
+| **ros_dd_c**            | URDF/Launch   | ros_dd C++ version                | 완료   |
+| **ros_dd_simulation**   | Meta package  | ros_dd simulation meta package    | 완료   |
 | **ros_dd_cartographer** | Launch/Config | ros_dd_gazebo용 Cartographer SLAM 패키지 | 완료   |
 | **ros_dd_gazebo**       | Launch/URDF   | ros_dd 로봇 Gazebo 시뮬레이션 패키지     | 완료   |
 | **ros_dd_navigation**   | Launch/Config | ros_dd_gazebo 자율주행 네비게이션 패키지 | 개발중   |
@@ -106,7 +108,7 @@ OpenCV를 활용한 영상 처리 및 컴퓨터 비전 관련 패키지들입니
 - **cv_msg**: 영상 처리 관련 커스텀 메시지 정의
   - 중심점 좌표 메시지
   - 모터 제어 서비스
-  - 기타 커스텀 인터페이스
+  - add 2 integers service 
 
 ## 설치 방법 (Installation)
 
@@ -117,7 +119,7 @@ cd ~/ros2_ws/src
 git clone https://github.com/JD-edu/ROS2_study.git
 ```
 
-### 2. 의존성 설치
+### 2. 의존성 설치(NOT tested)
 
 ```bash
 cd ~/ros2_ws
@@ -125,10 +127,30 @@ rosdep install --from-paths src --ignore-src -r -y
 ```
 
 ### 3. 빌드
+Before build copy all files and fildes into /home/jdedu/ros2_ws/src. 
 
 ```bash
 cd ~/ros2_ws
 colcon build
+```
+You may install libserial-dev. If you get such message when you build ROS2 package.
+```bash
+--- stderr: ros_serial_c
+
+CMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+
+  A required package was not found
+
+Call Stack (most recent call first):
+
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+
+  CMakeLists.txt:14 (pkg_check_modules)
+```
+Install libserial-dev
+```bash
+sudo apt update
+sudo apt install libserial-dev
 ```
 
 ### 4. 환경 설정
@@ -161,22 +183,47 @@ ros2 run ros_cv_center center_detector
 
 ### 시뮬레이션 환경 실행
 
+# Run Gazebo 
 ```bash
 # Gazebo 시뮬레이션 실행
-ros2 launch ros_dd_gazebo gazebo.launch.py
-
-# 원격 조종 실행
-ros2 run ros_dd_teleop teleop_key
+ros2 launch ros_dd_gazebo ros_dd_xacro.launch.py
 ```
-
-### SLAM 실행
+If gazebo is not running, execute following command.
 
 ```bash
+source /usr/share/gazebo/setup.sh
+```
+
+# 원격 조종 실행
+```bash
+ros2 run ros_dd_teleop asdw_teleop
+```
+
+# Run cartographer to make map
+```bash
+ros2 launch ros_dd_cartographer ros_dd_cartographer.launch.py use_sim_time:=True
+```
+You need to move robot until map is fully scanned. 
+# Make map 
+```bash
+ros2 run nav2_map_server map_saver_cli -f ~/map
+```
+Above command save map files(map.pgm, map.yaml) at ~/ folder. 
+
+### SLAM 실행
+```bash
+# Gazebo 실행
+ros2 launch ros_dd_gazebo ros_dd_xacro.launch.py
+```
+
 # Cartographer SLAM 실행
+```bash
 ros2 launch ros_dd_cartographer cartographer.launch.py
+```
 
 # 자율주행 실행
-ros2 launch ros_dd_navigation navigation.launch.py
+```bash
+ros2 launch ros_dd_navigation navigation.launch.py use_sim_time:=True map:=$HOME/map.yaml
 ```
 
 ## 저장소 구조 (Repository Structure)
@@ -190,11 +237,13 @@ ROS2_study/
 ├── ros_cv_c/                  # OpenCV 영상 처리 (C++)
 ├── ros_cv_center/             # 적색 영역 검출 (Python)
 ├── ros_cv_center_c/           # 적색 영역 검출 (C++)
-├── ros_dd/                    # URDF 시각화
-├── ros_dd_cartographer/       # Cartographer SLAM
-├── ros_dd_gazebo/             # Gazebo 시뮬레이션
-├── ros_dd_navigation/         # 자율주행 네비게이션
-├── ros_dd_teleop/             # 키보드 조종
+├── ros_dd/                    # URDF 시각화 (Python)
+├── ros_dd_c/                  # URDF 시각화(C++)
+├── ros_dd_simulation/         # ros_dd meta package
+  ├── ros_dd_cartographer/     # Cartographer SLAM
+  ├── ros_dd_gazebo/           # Gazebo 시뮬레이션
+  ├── ros_dd_navigation/       # 자율주행 네비게이션
+  └── ros_dd_teleop/           # 키보드 조종
 ├── ros_motor_srv/             # 모터 서비스 제어 (Python)
 ├── ros_motor_srv_c/           # 모터 서비스 제어 (C++)
 ├── ros_serial/                # 시리얼 통신 (Python)
